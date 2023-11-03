@@ -1,0 +1,20 @@
+{
+"apartamentos":[{
+    "id":1,
+    "number":2,
+    "name":"Larissa Castro",
+    "price":1.200,
+    "time":12,
+    "idCelesc":324235,
+    "caucao":1.000
+},{
+    "id":2,
+    "number":3,
+    "name":"Kelvin AKIRA",
+    "price":1.000,
+    "time":12,
+    "idCelesc":645635,
+    "caucao":0
+}]
+    
+}
