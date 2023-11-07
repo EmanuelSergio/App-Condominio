@@ -1,3 +1,4 @@
+import { AppToggleService } from './../../../coor/appToggle/app-toggle.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,16 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  constructor(
+    private appToggleService: AppToggleService
+  ){}
+
+  toggleDrawer(){
+  
+    
+    this.appToggleService.toggle()
+  }
+
+
+  
 }
