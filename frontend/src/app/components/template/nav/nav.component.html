@@ -1,22 +1,10 @@
-<mat-drawer-container class="example-container" autosize>
-    <mat-drawer #drawer class="example-sidenav" mode="side">
-      <p>locais</p>
+<mat-sidenav-container class="container">
+  <mat-sidenav class="sidenav" mode="side" opened="true" fixedInViewport="true" fixedTopGap="64">
       
       <mat-nav-list class="nav-list">
-        <a mat-list-item><i class="material-icons v-midle">home</i>Inicio</a>
-        <a mat-list-item><i class="material-icons v-midle">apartment</i>Apartamentos</a>
-    </mat-nav-list>
-      
-      <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
-      
-      
-      
-      <button (click)="showFiller = !showFiller" mat-raised-button>
-        Toggle extra text
-      </button>
-    </mat-drawer>
-  
-    
-  
-  </mat-drawer-container>
-  
+          <a mat-list-item><i class="material-icons v-midle">home</i>Inicio</a>
+          <a mat-list-item><i class="material-icons v-midle">apartment</i>Apartamentos</a>
+      </mat-nav-list>
+
+  </mat-sidenav>
+</mat-sidenav-container> 

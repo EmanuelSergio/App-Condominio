@@ -1,21 +1,7 @@
-.example-container {
-    width: 500px;
-    height: 693px;
-    
-    background-color: white;
-  }
-  
-  .example-sidenav-content {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .example-sidenav {
-    padding: 20px;
-  }
-  
-  .material-icons{
-    padding-right: 5px;
+.material-icons{
+  padding-right: 5px;
+}
+
+.sidenav{
+  height: 670px;
 }
